@@ -1,5 +1,6 @@
 name: Run Unicode Bidirectional Character Scan
 on:  
+  workflow_dispatch:
   push:    
     branches:      
      - '**'
