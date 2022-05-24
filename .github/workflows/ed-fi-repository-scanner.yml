@@ -6,4 +6,4 @@ on:
 
 jobs:   
   ed-fi-repository-scanner:    
-    uses: ed-fi-alliance-oss/ed-fi-actions/.github/workflows/repository-scanner.yml@latest
+    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@latest
