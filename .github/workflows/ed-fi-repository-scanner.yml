@@ -8,5 +8,4 @@ on:
 jobs:   
   ed-fi-repository-scanner:    
     uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@latest
-    with:
-      config: ./bidi-scanner/config.json
+    
