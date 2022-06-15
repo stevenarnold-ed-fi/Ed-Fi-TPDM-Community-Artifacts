@@ -7,6 +7,6 @@ jobs:
   reusable-job:
     uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/reusable.yml@main
     with:
-      username: john
+      username: ./bidi-scanner/config.json
     secrets:
-      token: test
+      token: ./bidi-scanner/config.json123
