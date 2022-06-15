@@ -5,7 +5,7 @@ on:
 
 jobs:
   reusable-job:
-    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/reusable.yml@master
+    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/reusable.yml@latest
     with:
       username: john
     secrets:
