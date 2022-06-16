@@ -5,6 +5,6 @@ on:
 
 jobs:
   reusable-job:
-    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@main
+    uses: ed-fi-alliance-oss/ed-fi-actions/.github/workflows/repository-scanner.yml@RND-270
     with:
       config-file-path: ./.github/workflows/bidi-scanner/config.json
