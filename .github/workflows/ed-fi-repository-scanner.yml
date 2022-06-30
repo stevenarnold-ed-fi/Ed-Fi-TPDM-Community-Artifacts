@@ -7,6 +7,7 @@ on:
 
 jobs:   
   ed-fi-repository-scanner:    
-    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@main
-    with:
-      config-file-path: ./.github/workflows/bidi-scanner/config.json
+    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/action.yml
+    # uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@main
+    # with:
+    #   config-file-path: ./.github/workflows/bidi-scanner/config.json
