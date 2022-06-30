@@ -9,6 +9,6 @@ jobs:
   #   with:
   #     config-file-path: ./.github/workflows/bidi-scanner/config.json
   scanner-fork:
-    uses: stevenarnold-ed-fi/ed-fi-actions/.github/workflows/repository-scanner.yml@latest
+    uses: stevenarnold-ed-fi/Ed-Fi-actions/.github/workflows/repository-scanner.yml@latest
     with:
       config-file-path: ./.github/workflows/bidi-scanner/config.json
